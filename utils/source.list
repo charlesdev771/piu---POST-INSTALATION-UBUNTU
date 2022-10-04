@@ -1,0 +1,17 @@
+deb https://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+# deb-src https://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+
+deb https://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+# deb-src https://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+
+deb https://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+# deb-src https://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+
+deb https://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src https://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+
+deb http://archive.canonical.com/ubuntu/ jammy partner
+# deb-src http://archive.canonical.com/ubuntu/ jammy partner
+
+# echo "deb http://http.kali.org/kali kali-rolling main non-free contrib" >> /etc/apt/sources.list
+# echo "deb-src http://http.kali.org/kali kali-rolling main non-free contrib" >> /etc/apt/sources.list
