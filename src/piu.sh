@@ -11,15 +11,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 install_bases_of_system()
 
 {
@@ -42,7 +33,6 @@ install_bases_of_system()
     #;
 
 }
-
 
 install_langs_of_programmation()
 
@@ -116,7 +106,7 @@ install_tools_of_programmation()
        snap install sqlitebrowser;
 
     #;
-}''
+}
 
 install_main_frameworks()
 {
