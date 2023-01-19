@@ -78,7 +78,7 @@ install_tools_of_programmation()
       sudo apt install codeblocks -y; sudo apt apt install idle3 -y; sudo snap install android-studio --classic;
       sudo apt install netbeans -y; sudo snap install intellij-idea-ultimate --classic; sudo snap refresh intellij-idea-ultimate;
       snap install atom -y; wget https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-linux-x64-8.1.6-0-installer.run?from_af=true;
-      sudo apt-add-repository ppa:paolorotolo/android-studio;
+      sudo apt-add-repository ppa:paolorotolo/android-studio; sudo snap install atom --classic;
 
       sudo apt-get update
 
@@ -104,6 +104,8 @@ install_tools_of_programmation()
       chmod +x xampp-installer.run; sudo ./xampp-installer.run;
 
        snap install sqlitebrowser;
+       
+       sudo apt install mariadb-server;
 
     #;
 }
@@ -114,7 +116,10 @@ install_main_frameworks()
 
     sudo apt install nodejs -y; sudo apt install npm -y; sudo npm install -g react-cli; sudo npm install -g react-native-cli;
     sudo npm install -g expo-cli; npm install -g sass; apt install composer -y; pip install Flask; pip install django;
-    sudo snap install flutter --classic;   $ flutter sdk-path; npm install -g vue;
+    sudo snap install flutter --classic;   $ flutter sdk-path; sudo npm install -g @vue/cli; sudo npm install -g @angular/cli; 
+    npm install -g @ionic/cli; sudo apt install php libapache2-mod-php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql;
+    
+    
 
     sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
     gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
